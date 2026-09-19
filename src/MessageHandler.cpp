@@ -1,4 +1,4 @@
-#include "../inc/MessageHandler.hpp"
+#include "../inc/MessageHandler.hpp" // ZOVЧИК 2
 
 pthread_cond_t* MessageHandler::sendCondition;
 pthread_cond_t* MessageHandler::recvCondition;
